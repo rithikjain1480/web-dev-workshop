@@ -1,0 +1,117 @@
+.app {
+    background-color: white;
+    color: black;
+}
+
+.app-dark {
+    background-color: black;
+    color: white;
+}
+
+#content {
+    margin: auto;
+    width: 65vw;
+}
+
+#navbar, #footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+#footer {
+    padding-top: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.app-dark a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+#heading * {
+    text-align: center;
+}
+
+#heading h1 {
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+#heading h2 {
+    margin-top: 10px;
+    margin-bottom: 45px;
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.section .sectionName {
+    width: 15vw;
+}
+
+.section .sectionContent {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 50vw;
+}
+
+.sectionContent p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.projectEntry {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.projectEntry h4 {
+    margin-top: 0px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+button:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.app-dark button {
+    color: white;
+}
